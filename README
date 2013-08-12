@@ -1,0 +1,1 @@
+Adding SQLite access to ExecuteCode android app. The application now has access to a SQLite DB and can return results upon a successful query execution.

@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:weightSum="7"
+    >
+    <TextView
+        android:layout_width="0dp" 
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:text="nombre" 
+        />
+    <EditText
+        android:layout_width="0dp" 
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:id="@+id/txtOp1"
+     />
+    <Button
+        android:layout_width="0dp" 
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:text="Save" 
+        android:id="@+id/btnOp1"
+     />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:weightSum="7"
+    >
+    <TextView
+        android:layout_width="0dp" 
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:text="habitante" 
+        />
+    <EditText
+        android:layout_width="0dp" 
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:id="@+id/txtOp2"
+     />
+    <Button
+        android:layout_width="0dp" 
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:text="Save" 
+        android:id="@+id/btnOp2"
+     />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:weightSum="7"
+    >
+    <TextView
+        android:layout_width="0dp" 
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:text="edad" 
+        />
+    <EditText
+        android:layout_width="0dp" 
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:id="@+id/txtOp3"
+     />
+    <Button
+        android:layout_width="0dp" 
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:text="Save" 
+        android:id="@+id/btnOp3"
+     />
+</LinearLayout>
+<TextView
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:text="Eval"
+ />
+
+<EditText
+    android:id="@+id/txtEval"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/query" />
+ 
+ <Button
+     	android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:id="@+id/btnEval"
+        android:text="Evaluate"
+  />
+</LinearLayout>
